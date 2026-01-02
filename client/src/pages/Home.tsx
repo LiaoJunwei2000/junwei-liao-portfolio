@@ -19,8 +19,12 @@ export default function Home() {
       <section className="container max-w-[720px] pt-16 pb-12">
         <div className="flex flex-col items-center text-center space-y-6">
           {/* Avatar */}
-          <div className="w-32 h-32 rounded-full bg-gradient-to-br from-primary/20 to-primary/5 flex items-center justify-center">
-            <span className="text-5xl font-bold text-primary">JL</span>
+          <div className="w-32 h-32 rounded-full overflow-hidden ring-4 ring-primary/10">
+            <img
+              src="/images/avatar.jpg"
+              alt="Junwei Liao"
+              className="w-full h-full object-cover"
+            />
           </div>
 
           {/* Name */}
@@ -42,7 +46,7 @@ export default function Home() {
               asChild
             >
               <a
-                href="mailto:junwei.liao@example.com"
+                href="mailto:liaojunwei1208@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
